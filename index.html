@@ -1,18 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-TW">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>視差滾動</title>
+    <title>CSS 視差滾動效果</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="parallax">
-    <img src="image1.webp" alt="Image 1" id="bg-img">
+<section class="parallax-section section1">
     <div class="content">
-        <h2>一角的努力--LXGeffort</h2>
+        <h2>視差滾動效果 1</h2>
+        <p>滾動頁面來體驗視差效果</p>
     </div>
-</div>
-<script src="script.js"></script>
+</section>
+
+<section class="normal-section">
+    <div class="content">
+        <h2>普通內容區塊</h2>
+        <p>這是一個普通的內容區塊，用於展示視差滾動的對比效果。視差滾動是透過讓背景和前景元素在頁面滾動時以不同速度移動，從而創造出深度感和動態效果。這種效果可以使靜態網頁也呈現出躍動的活潑感。</p>
+    </div>
+</section>
+
+<section class="parallax-section section2">
+    <div class="content">
+        <h2>視差滾動效果 2</h2>
+        <p>不同的背景色彩與移動速度</p>
+    </div>
+</section>
+
+<section class="normal-section">
+    <div class="content">
+        <h2>更多內容</h2>
+        <p>視差滾動原理其實就是讓背景和前景的移動速度不同。當使用者滾動網頁時，背景的移動速度會比前景慢，因此達到視差滾動的效果。</p>
+    </div>
+</section>
+
+<section class="parallax-section section3">
+    <div class="content">
+        <h2>視差滾動效果 3</h2>
+        <p>多層次視差效果</p>
+        <div class="floating-element element1"></div>
+        <div class="floating-element element2"></div>
+        <div class="floating-element element3"></div>
+    </div>
+</section>
+
+<section class="normal-section">
+    <div class="content">
+        <h2>結語</h2>
+        <p>這個範例展示了如何使用純 CSS 實現視差滾動效果，不需要使用任何圖片資源。</p>
+    </div>
+</section>
 </body>
 </html>
